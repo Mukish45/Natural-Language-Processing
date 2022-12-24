@@ -24,6 +24,9 @@ Import the following python packages for text preprocessing
     from textblob import TextBlob
     import language_tool_python
     
+    PUNCT_TO_REMOVE = string.punctuation
+    my_tool = language_tool_python.LanguageTool('en-US')
+    
 ## Preprocess Function:
         def preprocess_txt(text):
           url_pattern = re.compile(r'https?://\S+|www\.\S+') 
