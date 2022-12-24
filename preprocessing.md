@@ -11,8 +11,8 @@ The text preprocessing has to be carried-out in correct order.
 ## Packages Required
 Install the following packages if not installed already:
 
-        !pip install contractions
-        !pip install language_tool_python
+    !pip install contractions
+    !pip install language_tool_python
         
 Import the following python packages for text preprocessing
 
